@@ -3,6 +3,27 @@
 A **hexapod robot project** built on **Zephyr RTOS** and **ESP32**.  
 The goal is a **clean, modular, real-time capable control system** for legged robotics.
 
+## 🐙 Project Origin
+
+The original idea behind this project was to build an **octopod robot**  
+(eight legs, inspired by an octopus).
+
+During the design and planning phase, the project evolved:
+- mechanical complexity increased
+- servo count and power requirements grew significantly
+- control and gait planning became more demanding
+
+To keep the project **manageable, reliable, and scalable**, the decision was made
+to switch from an octopod to a **hexapod (six-legged) design**.
+
+A hexapod still offers:
+- excellent static stability
+- multiple gait patterns (tripod, ripple, wave)
+- lower mechanical and software complexity
+
+The name **octopodTheHexapod** remains as a reminder of the project’s original idea
+and its natural evolution during development.
+
 ---
 
 ## ✨ Features
