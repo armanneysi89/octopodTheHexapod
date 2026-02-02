@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "octopodTheHexapod": {
+      "rel_path": "",
+      "name": "octopodTheHexapod",
+      "buildConfigs": {},
+      "twisterConfigs": {},
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    }
+  }
+}
