@@ -3,7 +3,13 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(hexapod)
 
 target_sources(app PRIVATE 
-src/main.c src/pca9685.c
- src/rpcserver.c src/rpc_async.c
- src/rpc_tcp_bridge.c)
+  src/main.c 
+  src/pca9685.c
+  src/rpcserver.c 
+  src/rpc_async.c
+  src/rpc_tcp_bridge.c 
+  src/wifi.c)
 
+ if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/wifi.conf)
+  set(EXTRA_CONF_FILE ${CMAKE_CURRENT_SOURCE_DIR}/wifi.conf)
+endif()
